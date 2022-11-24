@@ -1,30 +1,35 @@
-.storybook-button {
-	  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	  font-weight: 700;
-	  border: 0;
-	  border-radius: 3em;
-	  cursor: pointer;
-	  display: inline-block;
-	  line-height: 1;
-	}
-	.storybook-button--primary {
+.uos-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 0.875rem;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+	.uos-button--primary {
 	  color: white;
-	  background-color: #1ea7fd;
+	  background-color: #c4222a;
 	}
-	.storybook-button--secondary {
-	  color: #333;
+
+	.uos-button--secondary {
+	  color: #c4222a;
 	  background-color: transparent;
-	  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+	  box-shadow: #c4222a 0px 0px 0px 1px inset;
 	}
-	.storybook-button--small {
+
+	.uos-button--small {
 	  font-size: 12px;
 	  padding: 10px 16px;
 	}
-	.storybook-button--medium {
+
+	.uos-button--medium {
 	  font-size: 14px;
 	  padding: 11px 20px;
 	}
-	.storybook-button--large {
+
+	.uos-button--large {
 	  font-size: 16px;
 	  padding: 12px 24px;
 	}

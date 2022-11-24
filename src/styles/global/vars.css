@@ -31,7 +31,7 @@
 	--tint-900: #0b3e5f;
 
 	/* Colors */
-	--background-color: var(--tint-50);
+	--background-color: #ffffff;
 	--border-color: var(--tint-100);
 
 	/* Decorations */

@@ -3,7 +3,7 @@
  #}
 {% macro render( props ) %}
 <div
-    class="[][][ component-stage {{ "component-stage--center" if props.center }} ]"
+    class="[ component-stage {{ "component-stage--center" if props.center }} ]"
 >{% if caller %}{{ caller() | safe }}{% endif %}</div>
 {% endmacro %}
 

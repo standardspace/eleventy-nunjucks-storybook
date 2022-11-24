@@ -6,7 +6,7 @@
 {% macro render( props ) %}
 {%- set mode = "primary" if props.primary else "secondary" -%}
 <button
-    class="storybook-button storybook-button--{{ props.size }} storybook-button--{{ mode }}"
+    class="uos-button uos-button--{{ props.size }} uos-button--{{ mode }}"
 >
     {{ props.label }}
 </button>
