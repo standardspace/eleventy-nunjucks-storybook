@@ -1,0 +1,17 @@
+{#
+ # @prop {string} label
+ # @prop {boolean} [primary=false]
+ # @prop {string} [size="medium"]
+ #}
+{% macro render( props ) %}
+<header class="[ stack ] [ uol-masthead ][]">
+    <h1>{{ props.title }}</h1>
+
+    <p class="[][][ subtitle ]">An <a href="https://11ty.dev">Eleventy</a> project that demonstrates using <a href="https://storybook.js.org">Storybook</a> with <a href="https://mozilla.github.io/nunjucks/templating.html">Nunjucks</a> components.</p>
+</header>
+{% endmacro %}
+
+{# 📕 Render automatically if called from Storybook #}
+{% if storybookArgs %}
+    {{ render( storybookArgs ) }}
+{% endif %}

@@ -1,3 +1,4 @@
+{%- from "components/component.njk" import component -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +20,11 @@
 	</style>
 </head>
 <body>
+	{{ component( "masthead", {
+		title: site.title,
+		primary: true,
+		size: "large"
+	}) }}
 	<main class="[ center container ][][]">
 		{{ content | safe }}
 	</main>
